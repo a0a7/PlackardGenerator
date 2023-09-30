@@ -138,6 +138,7 @@ button {
     border-radius: 5px;
     color: #ecf2f8;
     font-weight: bold;
+    margin-right: 5px;
 }
 
 button:active {

@@ -35,7 +35,6 @@
     </select><br>
     <label for="name">Surname:</label>
     <input type="text" id="name" name="name" placeholder="Surname" onblur="nameChanged()"> 
-    <p class="subtitle">Optional</p>
     <label for="name">Surname Pronounciation:</label>
     <input type="text" id="pronounc." name="pronounc." placeholder="(SUR-name)" onblur="pronounciationChanged()"> 
     <p class="subtitle">Optional</p>
@@ -67,12 +66,9 @@
     <option value="option3">Interlocking</option>
   </select><br>
 
-  <button type="button" id="download" onclick="download()"><b>Download (JPG)</b></button><br>
+  <button type="button" id="download" onclick="download()"><b>Download (JPG)</b></button>
   <button type="button" id="print" onclick="print()"><b>Print (PDF)</b></button><br>
 
-  <div id="watermark">
-    <label>made by alexander weimer</label>
-  </div>
   <div id="preview">
   <b>Preview<br></b>
   <div id="output">
