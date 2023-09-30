@@ -42,18 +42,31 @@
   </div>
   <b><br>Configure Plackard:</b><br>
   <div id="config">
-  <label for="units">Text Font:</label>
+    <label for="positioning">Title Position:</label>
+    <select id="positioning" name="positioning">
+      <option value="option1">Center-Left</option>
+      <option value="option2">Top-Left</option>
+      <option value="option3">Top-Center</option>
+    </select><br>  
+  <label for="font">Text Font:</label>
   <select id="font" name="font">
     <option value="option1">Crimson Text (Serif)</option>
     <option value="option2">Computer Modern (Serif)</option>
     <option value="option3">Livvic (Sans-Serif)</option>
   </select><br>
-  <label for="units">Text Color:</label>
-  <select id="font" name="font">
+  <label for="color">Text Color:</label>
+  <select id="color" name="color">
     <option value="option1">Black</option>
     <option value="option2">Dark Blue</option>
     <option value="option3">Dark Purple</option>
   </select><br>
+  <label for="folding">Folding Guide:</label>
+  <select id="folding" name="folding">
+    <option value="option1">None</option>
+    <option value="option2">Quarters</option>
+    <option value="option3">Interlocking</option>
+  </select><br>
+
   <button type="button" id="download" onclick="download()"><b>Download (JPG)</b></button><br>
   <button type="button" id="print" onclick="print()"><b>Print (PDF)</b></button><br>
 
