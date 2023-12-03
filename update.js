@@ -48,6 +48,7 @@ color.addEventListener('change', function() {
     });
 });
 
+// Update positioning
 positioning.addEventListener('change', function() {
     const selectedValue = positioning.value;
 
@@ -86,6 +87,7 @@ positioning.addEventListener('change', function() {
     });
 });
 
+// screenshot & download image
 function screenshot() {
     html2canvas(userInfo,{backgroundColor:"white"}).then(
         function (canvas) {
