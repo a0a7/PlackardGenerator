@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'Nimbus';
-    src: url('../assets/fonts/NimbusSanL-Reg.woff2') format('woff2'),
-         url('../assets/fonts/NimbusSanL-Reg.woff') format('woff');
+    src: url('../assets/fonts/CMU-Bold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -19,21 +18,6 @@ body {
     background-color: #161b22;
     margin-left: 25px;
     margin-top: 25px;
-}
-  
-#poweredByStrava {
-    position: absolute;
-    bottom: 1px;
-    right: 0px;
-    width: 200px;
-    padding: 15px;
-    line-height: 0.5;
-    text-align: right;
-}
-#poweredByStrava * {
-    width: 175px;
-    opacity: 0.08;
-    font-size: 10.4px;
 }
 
 b {
@@ -148,4 +132,45 @@ button:active {
 button:active * {
     background-color: #ecf2f8;
     color:  #28313e;
+}
+
+.displayText {
+    color: black;
+    font-weight: bold;
+}
+
+#titleText {
+    position: relative;
+    font-size: 25px;
+    font-weight: bolder;
+    display: inline-block;
+    line-height: 0;
+    top: -10px;
+}
+
+#nameText {
+    font-size: 60px;
+    font-weight: bolder;
+    padding: 4px;
+    display: inline-block;
+    line-height: 0;
+    padding-top: 20px;
+}
+
+#userInfo {
+    width: 750px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#pronounciationText {
+    text-align: right;
+    width: 75%;
+    font-size: 25px;
+    font-weight: bolder;
+    display: absolute;
 }
